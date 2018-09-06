@@ -7,4 +7,7 @@ fun main(args: Array<String>) {
 }
 
 class HelloAwsCdk(args: List<String>) : App(args) {
+    init {
+        MyStack(this, "hello-cdk")
+    }
 }
