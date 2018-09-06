@@ -17,6 +17,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("software.amazon.awscdk:cdk:0.8.2")
+    implementation("software.amazon.awscdk:s3:0.8.2")
 }
 
 kotlin.experimental.coroutines = Coroutines.ENABLE
